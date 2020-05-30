@@ -14,3 +14,5 @@ RUN sudo -u yay makepkg -srci --noconfirm
 
 WORKDIR /
 RUN rm -rf /src /home/yay/.cache
+
+CMD ["/bin/bash"]
